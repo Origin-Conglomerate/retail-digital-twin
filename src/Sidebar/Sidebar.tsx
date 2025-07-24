@@ -531,11 +531,6 @@ export default function AppSidebar() {
             <div className="flex h-6 w-6 items-center justify-center rounded-md bg-primary text-primary-foreground cursor-pointer" onClick={toggleTheme}>
               {theme === "dark" ? <Sun className="size-4" /> : <Moon className="size-4" />}
             </div>
-            <div className="flex h-6 w-6 items-center justify-center rounded-md bg-primary text-primary-foreground cursor-pointer">
-              <Link to="/profile">
-              <User className="size-4" />
-              </Link>
-            </div>
           </div>
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4 pt-0 overflow-x-visible">
