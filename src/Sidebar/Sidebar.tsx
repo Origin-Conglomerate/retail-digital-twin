@@ -33,7 +33,8 @@ import {
   Boxes,
   Network,
   Building,
-  MessageSquare
+  MessageSquare,
+  Headset
 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import {
@@ -230,6 +231,17 @@ export default function AppSidebar() {
         {
           title: "Management",
           url: "/ai-analytics"
+        },
+      ]
+    },
+    {
+      title: "Customer Support",
+      url: "#",
+      icon: Headset,
+      items: [
+        {
+          title: "Management",
+          url: "/customer-support"
         },
       ]
     },

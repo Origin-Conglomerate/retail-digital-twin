@@ -13,6 +13,7 @@ import AgenticAI from "./RetailDigitalTwin/AgenticAI/AgenticAI"
 import LogMonitor from "./RetailDigitalTwin/LogMonitor/LogMonitor"
 import AIAnalytics from "./RetailDigitalTwin/AIAnalytics/AIAnalytics"
 import Marketing from "./RetailDigitalTwin/Marketing/Marketing"
+import CustomerSupport from "./RetailDigitalTwin/CustomerSupport/CustomerSupport"
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path="/staff" element={<Staff />} />
             <Route path="/finance" element={<Finance />} />
             <Route path="/inventory" element={<Inventory />} />
+            <Route path="/customer-support" element={<CustomerSupport />} />
             <Route path="/operations" element={<Operations />} />
             <Route path="/physical-twin" element={<PhysicalTwin />} />
           </Route>
